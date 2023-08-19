@@ -1,0 +1,38 @@
+body{
+	background-color: #F08080;
+}
+header , footer {
+			padding: 10px;
+            background-color: green;
+            color: white;
+            text-align: center;
+		} 
+
+		nav {
+			overflow: hidden;
+			background-color: pink;
+		}
+
+		nav a{
+			background-color: purple;
+			padding: 10px;
+			color: black;
+		}
+
+		nav a:hover{
+			background-color: red;
+			color: white;
+        }
+
+        div.gallery{
+        	margin: 5px;
+        	border: 10px solid black;
+        	float: left;
+        	width: 200px;
+
+         }
+
+         div.gallery img{
+         	width: 100%;
+         	height: auto;
+         }
